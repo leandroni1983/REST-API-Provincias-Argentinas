@@ -19,9 +19,7 @@ y las colecciones agregarlas con el mismo nombre de los archivos json incuidos e
 Si desdeas puedes contectarte desde una base en la nube con MongoDB
 [Crear Cluster Documentacion](https://docs.atlas.mongodb.com/tutorial/create-new-cluster/ )
 y deberas modificar en app.py la linea siguiente.
-- 5 host ='mongodb://127.0.0.1:27017' <--  direccion del cluster.
-
-
+`5 host ='mongodb://127.0.0.1:27017'` <--  direccion del cluster.
 Contactame: [**SobreMi**](https://about.me/leandronicolas)
 
 
