@@ -1,5 +1,10 @@
+Sobre mi:
 https://about.me/leandronicolas
 
-REST API 
+Podes ver la api funcionando en:
+https://provinciasapi.herokuapp.com/
 
-Flask, MongoDB.
+REST API 
+Realizada con Python y Framework Flask,  DataBase en MongoDB .
+
+
