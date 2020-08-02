@@ -1,7 +1,7 @@
 from flask import Flask,jsonify,Response
 import pymongo
 from bson import json_util
-import json
+
 
 class Baseprovincias():
 
