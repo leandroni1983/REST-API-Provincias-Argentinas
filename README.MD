@@ -24,12 +24,9 @@ https://docs.atlas.mongodb.com/tutorial/create-new-cluster/
 Tambien deberas modificar en app.py  la linea 5 por la direccion brindada al crear el cluster en Mongo Atlas
 host ='mongodb://127.0.0.1:27017'
 
+Si deseas contactarme: [**SobreMi**](https://about.me/leandronicolas)
 
 
-
-
-Sobre mi:
-https://about.me/leandronicolas
 
 
 
