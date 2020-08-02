@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>Bases de dato en MongoDB</h1>
+        <div style="list-style: none;">
+           {%for valor in c%}
+                <li>{{valor['id']}} {{valor['nombre']}}</li>
+            {%endfor%}
+        </div>
+        <div>
+            <p>para obtener datos de una provincia coloca /provincia/id a continuacion en el navegador <br> donde id es el numero que aparece a la izquierda del listado, si queres obtener las localidades realiza el mismo procedimiento colocando /localidades/id </p>
+
+            <p>https://about.me/leandronicolas</p>
+            
+        </div>
+    </div>
+    
+</body>
+</html>
