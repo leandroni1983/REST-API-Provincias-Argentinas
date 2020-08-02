@@ -2,7 +2,7 @@ from flask import Flask,render_template,Response
 from bson import json_util
 from baseapimongo import Baseprovincias
 
-host ="mongodb+srv://leandroni1983:Leandro302@cluster0.qxhky.mongodb.net/mydatabase?retryWrites=true&w=majority"
+host ="http://localhost:5000/"
 base ="mydatabase"
 b=Baseprovincias(base,host)
 
@@ -36,5 +36,6 @@ def get_localidadesprovincia(provincia_id):
 
 
 app.run(host="localhost")
+
 #if __name__ == "__name__": app.run()
  
