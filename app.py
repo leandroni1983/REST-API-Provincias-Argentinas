@@ -36,6 +36,5 @@ def get_localidadesprovincia(provincia_id):
 
 
 app.run(host="localhost")
-
 #if __name__ == "__name__": app.run()
  

@@ -9,12 +9,21 @@ Son necesarios de instalar los siguientes Paquetes complementarios
 desde terminal con el comando pip install 
 pymongo 
 flask
+dnspython (si deseas correr la base desde un servidor /servicio Cloud)
 
-para poner en funcionamiento la Api desde tu localhost
-se recomienda utilizar la app MongoDB Compass desde el siguiente link 
+Para realizar las pruebas correspondientes  se recomienda montar y probar desde tu localhost,
+utilice la app MongoDB Compass la misma puede ser descargada desde el siguiente link 
 https://www.mongodb.com/try/download/compass
-donde tambien hay documentacion al respecto 
+donde tambien encontraras documentacion al respecto con los pasos a seguir
 
+** NOTA IMPORTANTE NO OLIVAR**
+se debe crear una carpeta en la raiz del disco C con el nombre data y en su interior otra db
+c:data/db
+
+si desdeas puedes contectarte desde una base en la nube con MongoDB
+https://docs.atlas.mongodb.com/tutorial/create-new-cluster/ 
+Tambien deberas modificar en app.py  la linea 5 por la direccion brindada al crear el cluster en Mongo Atlas
+host ="http://localhost:5000/"
 
 
 
