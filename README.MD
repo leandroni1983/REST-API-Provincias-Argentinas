@@ -15,6 +15,9 @@ Para realizar las pruebas correspondientes  se recomienda montar y probar desde 
 utilice la app MongoDB Compass la misma puede ser descargada desde el siguiente link 
 https://www.mongodb.com/try/download/compass
 donde tambien encontraras documentacion al respecto con los pasos a seguir
+para que funcione sin tener que modificar el codigo deberas crear 
+la base de datos con el nombre "mydatabase"
+y las colecciones agregarlas con el mismo nombre de los archivos json incuidos en la carpeta datasets
 
 ** NOTA IMPORTANTE NO OLIVAR**
 se debe crear una carpeta en la raiz del disco C con el nombre data y en su interior otra db
