@@ -2,7 +2,7 @@ from flask import Flask,render_template,Response
 from bson import json_util
 from baseapimongo import Baseprovincias
 
-host ="http://localhost:5000/"
+host ='mongodb://127.0.0.1:27017'
 base ="mydatabase"
 b=Baseprovincias(base,host)
 
