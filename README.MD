@@ -6,14 +6,13 @@ https://provinciasapi.herokuapp.com/
 
 
 Son necesarios de instalar los siguientes Paquetes complementarios
-desde terminal con el comando pip install 
-pymongo 
-flask
-dnspython (si deseas correr la base desde un servidor /servicio Cloud)
+
+- pymongo
+- flask
+- dnspython (si deseas correr la base desde un servidor /servicio Cloud)
 
 Para realizar las pruebas correspondientes  se recomienda montar y probar desde tu localhost,
-utilice la app MongoDB Compass la misma puede ser descargada desde el siguiente link 
-https://www.mongodb.com/try/download/compass
+utilice la app MongoDB Compass [Link Descarga y Documentacion](https://www.mongodb.com/try/download/compass)
 donde tambien encontraras documentacion al respecto con los pasos a seguir
 para que funcione sin tener que modificar el codigo deberas crear 
 la base de datos con el nombre "mydatabase"
