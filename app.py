@@ -2,8 +2,7 @@ from flask import Flask,render_template,Response
 from bson import json_util
 from baseapimongo import Baseprovincias
 
-
-host =""
+host ="http://localhost:5000/"
 base ="mydatabase"
 b=Baseprovincias(base,host)
 
@@ -36,7 +35,7 @@ def get_localidadesprovincia(provincia_id):
 
 
 
-#app.run(host="localhost")
+app.run(host="localhost")
 
-if __name__ == "__name__": app.run()
+#if __name__ == "__name__": app.run()
  
