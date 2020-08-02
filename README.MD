@@ -1,4 +1,4 @@
-REST API Provincias Argentinas y Localidades
+# H1 REST API Provincias Argentinas y Localidades
 Realizada con Python y Framework Flask,  DataBase en MongoDB .
 
 Podes ver la api funcionando en:
@@ -19,14 +19,11 @@ para que funcione sin tener que modificar el codigo deberas crear
 la base de datos con el nombre "mydatabase"
 y las colecciones agregarlas con el mismo nombre de los archivos json incuidos en la carpeta datasets
 
-** NOTA IMPORTANTE NO OLIVAR**
-se debe crear una carpeta en la raiz del disco C con el nombre data y en su interior otra db
-c:data/db
 
 si desdeas puedes contectarte desde una base en la nube con MongoDB
 https://docs.atlas.mongodb.com/tutorial/create-new-cluster/ 
 Tambien deberas modificar en app.py  la linea 5 por la direccion brindada al crear el cluster en Mongo Atlas
-host ="http://localhost:5000/"
+host ='mongodb://127.0.0.1:27017'
 
 
 
