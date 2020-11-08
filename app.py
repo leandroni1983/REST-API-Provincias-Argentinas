@@ -4,6 +4,7 @@ from baseapimongo import Baseprovincias
 
 host ='mongodb://127.0.0.1:27017'
 base ="mydatabase"
+
 b=Baseprovincias(base,host)
 
 app = Flask(__name__)

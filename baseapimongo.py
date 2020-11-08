@@ -1,7 +1,7 @@
 from flask import Flask,jsonify,Response
 import pymongo
 from bson import json_util
-
+import json
 
 class Baseprovincias():
 
@@ -16,8 +16,9 @@ class Baseprovincias():
         return self.data
 
     def getprovincias(self):
-        self.data = self.db.provincias.find({},{ "_id": 0})
+        self.data =self.db.provincias.find({},{ "_id": 0,"id":0})
         return self.data
+    
         
     def getprovincia(self,provincia_id):
         self.data = self.db.provincias.find({'id':provincia_id},{ "_id": 0})
